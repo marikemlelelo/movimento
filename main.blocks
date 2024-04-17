@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="u3%=%Dg+]!mt2S._NC^*" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="rNG!5(zP~0y+ihyyb$]6"><field name="i">IconNames.Diamond</field><next><block type="device_show_leds" id="RdPl^DULB?0VRc(6sDne"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_pause" id="!uq-ve$XaLezeR=Z/phc"><value name="pause"><shadow type="timePicker" id="kq4XGCBp}]wupvQ;s{V8"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="F;,cZA1zE{kARj{?#[i/"><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        # . # . # 
+        . . . . . 
+        # # . # #
+        `</field></block></next></block></next></block></next></block></statement></block><block type="controls_if" id="9ew|+W^r*2E{@oi5+@_T" disabled="true" x="504" y="28"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id=")324VuqwK%7Ks$l{5MDJ" disabled="true"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="device_print_message" id="n3u,NP92I!nExVi;fyZP" disabled="true"><value name="text"><shadow type="text" disabled="true"><field name="TEXT">Hello!</field></shadow><block type="device_build_image" id="94_vcE3z^PTGc-`2XDF8" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value></block></statement></block><block type="pxt-on-start" id="7C,z?)sa*o:Flk8zyl`(" x="617" y="103"></block></xml>
